@@ -1,0 +1,1143 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11893 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6200 1000 6700 1000
+Wire Wire Line
+	6700 1000 6700 1900
+Wire Wire Line
+	6700 1900 6200 1900
+Text Label 6500 1000 0    50   ~ 0
+RXD
+Wire Wire Line
+	5800 1100 5700 1100
+Wire Wire Line
+	5700 1100 5700 1300
+Wire Wire Line
+	5700 1300 6800 1300
+Wire Wire Line
+	6800 1300 6800 2000
+Wire Wire Line
+	6800 2000 6200 2000
+Text Label 6500 1300 0    50   ~ 0
+TXD
+Wire Wire Line
+	4600 1800 5000 1800
+Wire Wire Line
+	5000 1800 5000 1700
+Wire Wire Line
+	5000 1700 5800 1700
+Wire Wire Line
+	5000 1600 5000 1700
+Connection ~ 5000 1700
+Text Label 4600 1800 0    70   ~ 0
+SDA
+Wire Wire Line
+	4600 1900 5100 1900
+Wire Wire Line
+	5100 1900 5100 1800
+Wire Wire Line
+	5100 1800 5800 1800
+Wire Wire Line
+	5100 1600 5100 1800
+Connection ~ 5100 1800
+Text Label 4600 1900 0    70   ~ 0
+SCL
+Wire Wire Line
+	4600 2000 5200 2000
+Wire Wire Line
+	5200 2000 5200 1900
+Wire Wire Line
+	5200 1900 5800 1900
+Text Label 4600 2000 0    70   ~ 0
+USR0
+Wire Wire Line
+	5800 2100 4600 2100
+Text Label 4600 2100 0    70   ~ 0
+USR1
+Wire Wire Line
+	5800 2200 4600 2200
+Text Label 4600 2200 0    70   ~ 0
+USR2
+Wire Wire Line
+	4600 2300 5800 2300
+Text Label 4600 2300 0    70   ~ 0
+USR3
+Wire Wire Line
+	7900 2000 7000 2000
+Wire Wire Line
+	7000 2000 7000 3300
+Wire Wire Line
+	7000 3300 6200 3300
+Text Label 7900 2000 2    70   ~ 0
+TIM2
+Wire Wire Line
+	7900 2100 7500 2100
+Wire Wire Line
+	7500 2100 7500 3800
+Wire Wire Line
+	7500 3800 5100 3800
+Wire Wire Line
+	5100 3800 5100 3200
+Wire Wire Line
+	5100 3200 5800 3200
+Text Label 7900 2100 2    70   ~ 0
+ADC0
+Wire Wire Line
+	7900 2200 7100 2200
+Wire Wire Line
+	7100 2200 7100 3100
+Wire Wire Line
+	7100 3100 6200 3100
+Text Label 7900 2200 2    70   ~ 0
+DAC0
+Wire Wire Line
+	5800 2500 5100 2500
+Wire Wire Line
+	5100 2500 5100 2700
+Wire Wire Line
+	5100 2700 4600 2700
+Text Label 4600 2700 0    70   ~ 0
+USR4
+Wire Wire Line
+	4600 2800 5200 2800
+Wire Wire Line
+	5200 2800 5200 2600
+Wire Wire Line
+	5200 2600 5800 2600
+Text Label 4600 2800 0    70   ~ 0
+DB1
+Wire Wire Line
+	7400 3100 7900 3100
+Wire Wire Line
+	7400 3100 7400 3700
+Wire Wire Line
+	7400 3700 5400 3700
+Wire Wire Line
+	5400 3700 5400 3400
+Wire Wire Line
+	5400 3400 5800 3400
+Text Label 7900 3100 2    70   ~ 0
+RST
+Wire Wire Line
+	7800 3000 7900 3000
+Text Label 7800 3000 0    10   ~ 0
++3V3
+Wire Wire Line
+	5700 2400 5800 2400
+Text Label 5700 2400 0    10   ~ 0
++3V3
+Wire Wire Line
+	5800 1600 5600 1600
+Wire Wire Line
+	5600 1600 5600 1500
+Text Label 5800 1600 0    10   ~ 0
++3V3
+Wire Wire Line
+	5000 1200 5000 1100
+Wire Wire Line
+	5100 1200 5100 1100
+Wire Wire Line
+	5100 1100 5000 1100
+Wire Wire Line
+	5000 1100 5000 1000
+Connection ~ 5000 1100
+Text Label 5000 1200 0    10   ~ 0
++3V3
+Wire Wire Line
+	6200 4900 6300 4900
+Wire Wire Line
+	6300 4900 6300 4200
+Wire Wire Line
+	6300 4200 6300 4100
+Wire Wire Line
+	6300 4200 6500 4200
+Wire Wire Line
+	6500 4200 6500 4300
+Wire Wire Line
+	6500 4200 6700 4200
+Wire Wire Line
+	6700 4200 6700 4300
+Wire Wire Line
+	6700 4200 6900 4200
+Wire Wire Line
+	6900 4200 6900 4300
+Wire Wire Line
+	6300 4200 6100 4200
+Wire Wire Line
+	6100 4200 6100 4300
+Connection ~ 6500 4200
+Connection ~ 6700 4200
+Connection ~ 6300 4200
+Text Label 6200 4900 0    10   ~ 0
++3V3
+Wire Wire Line
+	7700 2700 7800 2700
+Wire Wire Line
+	7800 2700 7900 2700
+Wire Wire Line
+	7900 2800 7800 2800
+Wire Wire Line
+	7800 2800 7800 2700
+Connection ~ 7800 2700
+Text Label 7700 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 2500 6200 2500
+Text Label 6300 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 3000 6200 3000
+Text Label 6300 3000 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 3200 6200 3200
+Text Label 6300 3200 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 1800 6300 1800
+Text Label 6200 1800 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 2200 6200 2200
+Text Label 6300 2200 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 2800 5800 2800
+Text Label 5700 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 3500 5800 3500
+Text Label 5700 3500 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 2000 5800 2000
+Text Label 5700 2000 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 5200 5100 5200
+Wire Wire Line
+	5100 5200 5100 5300
+Wire Wire Line
+	5200 5100 5100 5100
+Wire Wire Line
+	5100 5100 5100 5200
+Wire Wire Line
+	5200 5000 5100 5000
+Wire Wire Line
+	5100 5000 5100 5100
+Wire Wire Line
+	5200 4900 5100 4900
+Wire Wire Line
+	5100 4900 5100 5000
+Connection ~ 5100 5000
+Connection ~ 5100 5100
+Connection ~ 5100 5200
+Text Label 5200 5200 0    10   ~ 0
+GND
+Wire Wire Line
+	6100 4600 6100 4500
+Text Label 6100 4600 0    10   ~ 0
+GND
+Wire Wire Line
+	6400 5900 6500 5900
+Wire Wire Line
+	6500 5900 6500 6000
+Text Label 6400 5900 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 1500 6300 1600
+Wire Wire Line
+	6300 1600 6200 1600
+Wire Wire Line
+	6300 1600 6300 1700
+Wire Wire Line
+	6300 1700 6200 1700
+Connection ~ 6300 1600
+Text Label 6300 1500 0    10   ~ 0
++5V
+Wire Wire Line
+	7800 2900 7900 2900
+Text Label 7800 2900 0    10   ~ 0
++5V
+Wire Wire Line
+	6200 5000 6500 5000
+Wire Wire Line
+	6500 5000 6500 4700
+Wire Wire Line
+	6500 5000 6500 5800
+Wire Wire Line
+	6500 5800 6400 5800
+Text Label 6200 5000 0    70   ~ 0
+WP
+Connection ~ 6500 5000
+Wire Wire Line
+	6200 5100 6700 5100
+Wire Wire Line
+	6700 5100 6700 4700
+Wire Wire Line
+	6700 5100 7300 5100
+Wire Wire Line
+	7300 5100 7300 2900
+Wire Wire Line
+	7300 2900 6200 2900
+Connection ~ 6700 5100
+Text Label 6700 2900 0    70   ~ 0
+ID_SC
+Text Label 6200 5100 0    70   ~ 0
+ID_SC
+Wire Wire Line
+	6200 5200 6900 5200
+Wire Wire Line
+	6900 5200 6900 4700
+Wire Wire Line
+	5800 2900 4900 2900
+Wire Wire Line
+	4900 2900 4900 5500
+Wire Wire Line
+	4900 5500 6900 5500
+Wire Wire Line
+	6900 5500 6900 5200
+Connection ~ 6900 5200
+Text Label 4900 2900 0    70   ~ 0
+ID_SD
+Text Label 6200 5200 0    70   ~ 0
+ID_SD
+$Comp
+L l3lanSpy-eagle-import:MH20-2 J1
+U 1 1 2CE6A523
+P 6000 2500
+F 0 "J1" H 5850 3500 59  0000 L BNN
+F 1 "MH20-2" H 5750 1350 59  0000 L BNN
+F 2 "l3lanSpy:MH20-2-0.1" H 6000 2500 50  0001 C CNN
+F 3 "" H 6000 2500 50  0001 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:MH6-1 J2
+U 1 1 F2D55355
+P 8000 2900
+F 0 "J2" H 7900 2505 59  0000 C CNN
+F 1 "MH6-1" H 7975 3200 59  0000 C CNN
+F 2 "l3lanSpy:MH6-1-0.1" H 8000 2900 50  0001 C CNN
+F 3 "" H 8000 2900 50  0001 C CNN
+	1    8000 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:MH6-1 J3
+U 1 1 D6A0AFFD
+P 8000 2000
+F 0 "J3" H 7900 1605 59  0000 C CNN
+F 1 "MH6-1" H 7975 2300 59  0000 C CNN
+F 2 "l3lanSpy:MH6-1-0.1" H 8000 2000 50  0001 C CNN
+F 3 "" H 8000 2000 50  0001 C CNN
+	1    8000 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:MH8-1 J4
+U 1 1 2A89DB3B
+P 4500 1900
+F 0 "J4" H 4400 2305 59  0000 C CNN
+F 1 "MH8-1" H 4475 1400 59  0000 C CNN
+F 2 "l3lanSpy:MH8-1-0.1" H 4500 1900 50  0001 C CNN
+F 3 "" H 4500 1900 50  0001 C CNN
+	1    4500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:MH10-1 J5
+U 1 1 0A445BA9
+P 4500 3100
+F 0 "J5" H 4400 3605 59  0000 C CNN
+F 1 "MH10-1" H 4475 2500 59  0000 C CNN
+F 2 "l3lanSpy:MH10-1-0.1" H 4500 3100 50  0001 C CNN
+F 3 "" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:MH2-2 J6
+U 1 1 8E9E0148
+P 6000 1100
+F 0 "J6" H 5850 1300 59  0000 L BNN
+F 1 "MH2-2" H 5850 950 59  0000 L BNN
+F 2 "l3lanSpy:MH2-2-0.1" H 6000 1100 50  0001 C CNN
+F 3 "" H 6000 1100 50  0001 C CNN
+	1    6000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:+3V3 #+3V01
+U 1 1 406B5002
+P 5600 1500
+F 0 "#+3V01" H 5600 1500 50  0001 C CNN
+F 1 "+3V3" H 5600 1650 59  0000 C CNN
+F 2 "" H 5600 1500 50  0001 C CNN
+F 3 "" H 5600 1500 50  0001 C CNN
+	1    5600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:+3V3 #+3V02
+U 1 1 37D36547
+P 7800 3000
+F 0 "#+3V02" H 7800 3000 50  0001 C CNN
+F 1 "+3V3" V 7810 3230 59  0000 C CNN
+F 2 "" H 7800 3000 50  0001 C CNN
+F 3 "" H 7800 3000 50  0001 C CNN
+	1    7800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 7700 2700
+F 0 "#GND01" H 7700 2700 50  0001 C CNN
+F 1 "GND" H 7700 2700 50  0001 C CNN
+F 2 "" H 7700 2700 50  0001 C CNN
+F 3 "" H 7700 2700 50  0001 C CNN
+	1    7700 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 6300 2500
+F 0 "#GND02" H 6300 2500 50  0001 C CNN
+F 1 "GND" H 6300 2500 50  0001 C CNN
+F 2 "" H 6300 2500 50  0001 C CNN
+F 3 "" H 6300 2500 50  0001 C CNN
+	1    6300 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 6300 1800
+F 0 "#GND03" H 6300 1800 50  0001 C CNN
+F 1 "GND" H 6300 1800 50  0001 C CNN
+F 2 "" H 6300 1800 50  0001 C CNN
+F 3 "" H 6300 1800 50  0001 C CNN
+	1    6300 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND04
+U 1 1 D896219B
+P 6300 3000
+F 0 "#GND04" H 6300 3000 50  0001 C CNN
+F 1 "GND" H 6300 3000 50  0001 C CNN
+F 2 "" H 6300 3000 50  0001 C CNN
+F 3 "" H 6300 3000 50  0001 C CNN
+	1    6300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 6300 3200
+F 0 "#GND05" H 6300 3200 50  0001 C CNN
+F 1 "GND" H 6300 3200 50  0001 C CNN
+F 2 "" H 6300 3200 50  0001 C CNN
+F 3 "" H 6300 3200 50  0001 C CNN
+	1    6300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 5700 3500
+F 0 "#GND06" H 5700 3500 50  0001 C CNN
+F 1 "GND" H 5700 3500 50  0001 C CNN
+F 2 "" H 5700 3500 50  0001 C CNN
+F 3 "" H 5700 3500 50  0001 C CNN
+	1    5700 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 5700 2800
+F 0 "#GND07" H 5700 2800 50  0001 C CNN
+F 1 "GND" H 5700 2800 50  0001 C CNN
+F 2 "" H 5700 2800 50  0001 C CNN
+F 3 "" H 5700 2800 50  0001 C CNN
+	1    5700 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 6300 2200
+F 0 "#GND08" H 6300 2200 50  0001 C CNN
+F 1 "GND" H 6300 2200 50  0001 C CNN
+F 2 "" H 6300 2200 50  0001 C CNN
+F 3 "" H 6300 2200 50  0001 C CNN
+	1    6300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:+3V3 #+3V03
+U 1 1 A56F219E
+P 5700 2400
+F 0 "#+3V03" H 5700 2400 50  0001 C CNN
+F 1 "+3V3" V 5710 2640 59  0000 C CNN
+F 2 "" H 5700 2400 50  0001 C CNN
+F 3 "" H 5700 2400 50  0001 C CNN
+	1    5700 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:+5V #+5V01
+U 1 1 5F6C2C2A
+P 7800 2900
+F 0 "#+5V01" H 7800 2900 50  0001 C CNN
+F 1 "+5V" V 7800 3130 59  0000 C CNN
+F 2 "" H 7800 2900 50  0001 C CNN
+F 3 "" H 7800 2900 50  0001 C CNN
+	1    7800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:+5V #+5V02
+U 1 1 1F01AF8C
+P 6300 1500
+F 0 "#+5V02" H 6300 1500 50  0001 C CNN
+F 1 "+5V" H 6300 1650 59  0000 C CNN
+F 2 "" H 6300 1500 50  0001 C CNN
+F 3 "" H 6300 1500 50  0001 C CNN
+	1    6300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT1
+U 1 1 18224F2D
+P 7800 1700
+F 0 "#PORT1" H 7800 1700 50  0001 C CNN
+F 1 "NC" H 7800 1700 50  0001 C CNN
+F 2 "" H 7800 1700 50  0001 C CNN
+F 3 "" H 7800 1700 50  0001 C CNN
+	1    7800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT2
+U 1 1 382CA099
+P 7800 1800
+F 0 "#PORT2" H 7800 1800 50  0001 C CNN
+F 1 "NC" H 7800 1800 50  0001 C CNN
+F 2 "" H 7800 1800 50  0001 C CNN
+F 3 "" H 7800 1800 50  0001 C CNN
+	1    7800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT3
+U 1 1 92AE2CB7
+P 7800 1900
+F 0 "#PORT3" H 7800 1900 50  0001 C CNN
+F 1 "NC" H 7800 1900 50  0001 C CNN
+F 2 "" H 7800 1900 50  0001 C CNN
+F 3 "" H 7800 1900 50  0001 C CNN
+	1    7800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT4
+U 1 1 E0F32BC5
+P 7800 2600
+F 0 "#PORT4" H 7800 2600 50  0001 C CNN
+F 1 "NC" H 7800 2600 50  0001 C CNN
+F 2 "" H 7800 2600 50  0001 C CNN
+F 3 "" H 7800 2600 50  0001 C CNN
+	1    7800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT5
+U 1 1 8F41498A
+P 6300 3500
+F 0 "#PORT5" H 6300 3500 50  0001 C CNN
+F 1 "NC" H 6300 3500 50  0001 C CNN
+F 2 "" H 6300 3500 50  0001 C CNN
+F 3 "" H 6300 3500 50  0001 C CNN
+	1    6300 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT6
+U 1 1 EF1D2B26
+P 6300 3400
+F 0 "#PORT6" H 6300 3400 50  0001 C CNN
+F 1 "NC" H 6300 3400 50  0001 C CNN
+F 2 "" H 6300 3400 50  0001 C CNN
+F 3 "" H 6300 3400 50  0001 C CNN
+	1    6300 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT7
+U 1 1 136C3F5C
+P 6300 2100
+F 0 "#PORT7" H 6300 2100 50  0001 C CNN
+F 1 "NC" H 6300 2100 50  0001 C CNN
+F 2 "" H 6300 2100 50  0001 C CNN
+F 3 "" H 6300 2100 50  0001 C CNN
+	1    6300 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT8
+U 1 1 7211A5AE
+P 6300 2400
+F 0 "#PORT8" H 6300 2400 50  0001 C CNN
+F 1 "NC" H 6300 2400 50  0001 C CNN
+F 2 "" H 6300 2400 50  0001 C CNN
+F 3 "" H 6300 2400 50  0001 C CNN
+	1    6300 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT10
+U 1 1 1DA580B1
+P 6300 2800
+F 0 "#PORT10" H 6300 2800 50  0001 C CNN
+F 1 "NC" H 6300 2800 50  0001 C CNN
+F 2 "" H 6300 2800 50  0001 C CNN
+F 3 "" H 6300 2800 50  0001 C CNN
+	1    6300 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT11
+U 1 1 B5F89687
+P 6300 2700
+F 0 "#PORT11" H 6300 2700 50  0001 C CNN
+F 1 "NC" H 6300 2700 50  0001 C CNN
+F 2 "" H 6300 2700 50  0001 C CNN
+F 3 "" H 6300 2700 50  0001 C CNN
+	1    6300 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT12
+U 1 1 DEE2ECA9
+P 5700 2700
+F 0 "#PORT12" H 5700 2700 50  0001 C CNN
+F 1 "NC" H 5700 2700 50  0001 C CNN
+F 2 "" H 5700 2700 50  0001 C CNN
+F 3 "" H 5700 2700 50  0001 C CNN
+	1    5700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT14
+U 1 1 5DE206E6
+P 5700 3000
+F 0 "#PORT14" H 5700 3000 50  0001 C CNN
+F 1 "NC" H 5700 3000 50  0001 C CNN
+F 2 "" H 5700 3000 50  0001 C CNN
+F 3 "" H 5700 3000 50  0001 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT15
+U 1 1 18249377
+P 5700 3100
+F 0 "#PORT15" H 5700 3100 50  0001 C CNN
+F 1 "NC" H 5700 3100 50  0001 C CNN
+F 2 "" H 5700 3100 50  0001 C CNN
+F 3 "" H 5700 3100 50  0001 C CNN
+	1    5700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT16
+U 1 1 85098AB0
+P 6300 2300
+F 0 "#PORT16" H 6300 2300 50  0001 C CNN
+F 1 "NC" H 6300 2300 50  0001 C CNN
+F 2 "" H 6300 2300 50  0001 C CNN
+F 3 "" H 6300 2300 50  0001 C CNN
+	1    6300 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT17
+U 1 1 B4DCFE77
+P 5700 3300
+F 0 "#PORT17" H 5700 3300 50  0001 C CNN
+F 1 "NC" H 5700 3300 50  0001 C CNN
+F 2 "" H 5700 3300 50  0001 C CNN
+F 3 "" H 5700 3300 50  0001 C CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT18
+U 1 1 C489A296
+P 6300 2600
+F 0 "#PORT18" H 6300 2600 50  0001 C CNN
+F 1 "NC" H 6300 2600 50  0001 C CNN
+F 2 "" H 6300 2600 50  0001 C CNN
+F 3 "" H 6300 2600 50  0001 C CNN
+	1    6300 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT19
+U 1 1 706438CA
+P 4700 3400
+F 0 "#PORT19" H 4700 3400 50  0001 C CNN
+F 1 "NC" H 4700 3400 50  0001 C CNN
+F 2 "" H 4700 3400 50  0001 C CNN
+F 3 "" H 4700 3400 50  0001 C CNN
+	1    4700 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT20
+U 1 1 7592CB25
+P 4700 3300
+F 0 "#PORT20" H 4700 3300 50  0001 C CNN
+F 1 "NC" H 4700 3300 50  0001 C CNN
+F 2 "" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT21
+U 1 1 22D971D0
+P 4700 3200
+F 0 "#PORT21" H 4700 3200 50  0001 C CNN
+F 1 "NC" H 4700 3200 50  0001 C CNN
+F 2 "" H 4700 3200 50  0001 C CNN
+F 3 "" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT22
+U 1 1 49822A66
+P 4700 3100
+F 0 "#PORT22" H 4700 3100 50  0001 C CNN
+F 1 "NC" H 4700 3100 50  0001 C CNN
+F 2 "" H 4700 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT23
+U 1 1 6032A940
+P 4700 2900
+F 0 "#PORT23" H 4700 2900 50  0001 C CNN
+F 1 "NC" H 4700 2900 50  0001 C CNN
+F 2 "" H 4700 2900 50  0001 C CNN
+F 3 "" H 4700 2900 50  0001 C CNN
+	1    4700 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT24
+U 1 1 A25B0572
+P 4700 3000
+F 0 "#PORT24" H 4700 3000 50  0001 C CNN
+F 1 "NC" H 4700 3000 50  0001 C CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT25
+U 1 1 920E323B
+P 4700 3500
+F 0 "#PORT25" H 4700 3500 50  0001 C CNN
+F 1 "NC" H 4700 3500 50  0001 C CNN
+F 2 "" H 4700 3500 50  0001 C CNN
+F 3 "" H 4700 3500 50  0001 C CNN
+	1    4700 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT26
+U 1 1 B09D755F
+P 4700 3600
+F 0 "#PORT26" H 4700 3600 50  0001 C CNN
+F 1 "NC" H 4700 3600 50  0001 C CNN
+F 2 "" H 4700 3600 50  0001 C CNN
+F 3 "" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT27
+U 1 1 CC4234FF
+P 4700 1600
+F 0 "#PORT27" H 4700 1600 50  0001 C CNN
+F 1 "NC" H 4700 1600 50  0001 C CNN
+F 2 "" H 4700 1600 50  0001 C CNN
+F 3 "" H 4700 1600 50  0001 C CNN
+	1    4700 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT28
+U 1 1 EB38627B
+P 4700 1700
+F 0 "#PORT28" H 4700 1700 50  0001 C CNN
+F 1 "NC" H 4700 1700 50  0001 C CNN
+F 2 "" H 4700 1700 50  0001 C CNN
+F 3 "" H 4700 1700 50  0001 C CNN
+	1    4700 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT29
+U 1 1 1D273702
+P 6300 1100
+F 0 "#PORT29" H 6300 1100 50  0001 C CNN
+F 1 "NC" H 6300 1100 50  0001 C CNN
+F 2 "" H 6300 1100 50  0001 C CNN
+F 3 "" H 6300 1100 50  0001 C CNN
+	1    6300 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:NC #PORT30
+U 1 1 4C1DA72C
+P 5700 1000
+F 0 "#PORT30" H 5700 1000 50  0001 C CNN
+F 1 "NC" H 5700 1000 50  0001 C CNN
+F 2 "" H 5700 1000 50  0001 C CNN
+F 3 "" H 5700 1000 50  0001 C CNN
+	1    5700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND09
+U 1 1 928DF91D
+P 5700 2000
+F 0 "#GND09" H 5700 2000 50  0001 C CNN
+F 1 "GND" H 5700 2000 50  0001 C CNN
+F 2 "" H 5700 2000 50  0001 C CNN
+F 3 "" H 5700 2000 50  0001 C CNN
+	1    5700 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:RES_0603 R1
+U 1 1 A939AEAD
+P 5000 1400
+F 0 "R1" V 5100 1500 59  0000 C CNN
+F 1 "4k7" V 5000 1500 59  0000 C CNN
+F 2 "l3lanSpy:R0603" H 5000 1400 50  0001 C CNN
+F 3 "" H 5000 1400 50  0001 C CNN
+	1    5000 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:RES_0603 R2
+U 1 1 913F9C38
+P 5100 1400
+F 0 "R2" V 5200 1200 59  0000 C CNN
+F 1 "4k7" V 5100 1600 59  0000 C CNN
+F 2 "l3lanSpy:R0603" H 5100 1400 50  0001 C CNN
+F 3 "" H 5100 1400 50  0001 C CNN
+	1    5100 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:+3V3 #+3V04
+U 1 1 E81106EE
+P 5000 1000
+F 0 "#+3V04" H 5000 1000 50  0001 C CNN
+F 1 "+3V3" H 5000 1150 59  0000 C CNN
+F 2 "" H 5000 1000 50  0001 C CNN
+F 3 "" H 5000 1000 50  0001 C CNN
+	1    5000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:A4L-LOC #FRAME1
+U 1 1 73DA64CA
+P 900 7300
+F 0 "#FRAME1" H 900 7300 50  0001 C CNN
+F 1 "A4L-LOC" H 900 7300 50  0001 C CNN
+F 2 "" H 900 7300 50  0001 C CNN
+F 3 "" H 900 7300 50  0001 C CNN
+	1    900  7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:CAT24C32WI-GT3 U1
+U 1 1 F9562130
+P 5700 5100
+F 0 "U1" H 5410 5430 59  0000 L BNN
+F 1 "CAT24C32WI-GT3" H 5300 4800 59  0000 L BNN
+F 2 "l3lanSpy:SOIC-8" H 5700 5100 50  0001 C CNN
+F 3 "" H 5700 5100 50  0001 C CNN
+	1    5700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND010
+U 1 1 845C69E3
+P 5100 5300
+F 0 "#GND010" H 5100 5300 50  0001 C CNN
+F 1 "GND" H 5100 5300 50  0001 C CNN
+F 2 "" H 5100 5300 50  0001 C CNN
+F 3 "" H 5100 5300 50  0001 C CNN
+	1    5100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:+3V3 #+3V05
+U 1 1 D30003A2
+P 6300 4100
+F 0 "#+3V05" H 6300 4100 50  0001 C CNN
+F 1 "+3V3" H 6300 4250 59  0000 C CNN
+F 2 "" H 6300 4100 50  0001 C CNN
+F 3 "" H 6300 4100 50  0001 C CNN
+	1    6300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:RES_0603 R3
+U 1 1 D483747B
+P 6500 4500
+F 0 "R3" V 6600 4600 59  0000 C CNN
+F 1 "1k" V 6500 4600 59  0000 C CNN
+F 2 "l3lanSpy:R0603" H 6500 4500 50  0001 C CNN
+F 3 "" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:RES_0603 R4
+U 1 1 885F582A
+P 6700 4500
+F 0 "R4" V 6800 4600 59  0000 C CNN
+F 1 "4k7" V 6700 4000 59  0000 C CNN
+F 2 "l3lanSpy:R0603" H 6700 4500 50  0001 C CNN
+F 3 "" H 6700 4500 50  0001 C CNN
+	1    6700 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:RES_0603 R5
+U 1 1 17E7B1B2
+P 6900 4500
+F 0 "R5" V 7000 4600 59  0000 C CNN
+F 1 "4k7" V 6900 4200 59  0000 C CNN
+F 2 "l3lanSpy:R0603" H 6900 4500 50  0001 C CNN
+F 3 "" H 6900 4500 50  0001 C CNN
+	1    6900 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:CAP_0603 C1
+U 1 1 218CB388
+P 6100 4400
+F 0 "C1" V 6000 4200 59  0000 C CNN
+F 1 "100n" V 6100 4200 59  0000 C CNN
+F 2 "l3lanSpy:C0603" H 6100 4400 50  0001 C CNN
+F 3 "" H 6100 4400 50  0001 C CNN
+	1    6100 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND011
+U 1 1 19DA8D48
+P 6100 4600
+F 0 "#GND011" H 6100 4600 50  0001 C CNN
+F 1 "GND" H 6100 4600 50  0001 C CNN
+F 2 "" H 6100 4600 50  0001 C CNN
+F 3 "" H 6100 4600 50  0001 C CNN
+	1    6100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:MH2-1 J7
+U 1 1 1B1E17EB
+P 6300 5900
+F 0 "J7" H 6300 6105 59  0000 C CNN
+F 1 "MH2-1" H 6275 5800 59  0000 C CNN
+F 2 "l3lanSpy:MH2-1-0.1" H 6300 5900 50  0001 C CNN
+F 3 "" H 6300 5900 50  0001 C CNN
+	1    6300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:GND #GND012
+U 1 1 A5F18D96
+P 6500 6000
+F 0 "#GND012" H 6500 6000 50  0001 C CNN
+F 1 "GND" H 6500 6000 50  0001 C CNN
+F 2 "" H 6500 6000 50  0001 C CNN
+F 3 "" H 6500 6000 50  0001 C CNN
+	1    6500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L l3lanSpy-eagle-import:CC-BY-SA_LOGO LOGO1
+U 1 1 8712EDD9
+P 6300 7000
+F 0 "LOGO1" H 6300 7000 50  0001 C CNN
+F 1 "CC-BY-SA_LOGO" H 6300 7000 50  0001 C CNN
+F 2 "l3lanSpy:CC-BY-SA_LOGO" H 6300 7000 50  0001 C CNN
+F 3 "" H 6300 7000 50  0001 C CNN
+	1    6300 7000
+	1    0    0    -1  
+$EndComp
+Text Notes 5800 1600 0    42   ~ 0
++3V3
+Text Notes 5800 1700 0    42   ~ 0
+GPIO 2 (SDA)
+Text Notes 5800 1800 0    42   ~ 0
+GPIO 3 (SCL)
+Text Notes 5800 1900 0    42   ~ 0
+GPIO 4 (GPCLK0)
+Text Notes 5800 2000 0    42   ~ 0
+GND
+Text Notes 5800 2800 0    42   ~ 0
+GND
+Text Notes 5800 3500 0    42   ~ 0
+GND
+Text Notes 5800 2100 0    42   ~ 0
+GPIO 17
+Text Notes 5800 2200 0    42   ~ 0
+GPIO 27
+Text Notes 5800 2300 0    42   ~ 0
+GPIO 22
+Text Notes 5800 2400 0    42   ~ 0
++3V3
+Text Notes 5800 2500 0    42   ~ 0
+GPIO10 (MOSI)
+Text Notes 5800 2600 0    42   ~ 0
+GPIO9 (MISO)
+Text Notes 5800 2700 0    42   ~ 0
+GPIO11 (SCLK)
+Text Notes 5800 2900 0    42   ~ 0
+GPIO 0 (ID_SD)
+Text Notes 5800 3000 0    42   ~ 0
+GPIO 5
+Text Notes 5800 3100 0    42   ~ 0
+GPIO 6
+Text Notes 5800 3200 0    42   ~ 0
+GPIO 13 (PWM1)
+Text Notes 5800 3300 0    42   ~ 0
+GPIO 19 (PCM_FS)
+Text Notes 5800 3400 0    42   ~ 0
+GPIO 26
+Text Notes 6200 1600 0    42   ~ 0
++5V
+Text Notes 6200 1700 0    42   ~ 0
++5V
+Text Notes 6200 1800 0    42   ~ 0
+GND
+Text Notes 6200 2500 0    42   ~ 0
+GND
+Text Notes 6200 2200 0    42   ~ 0
+GND
+Text Notes 6200 3200 0    42   ~ 0
+GND
+Text Notes 6200 1900 0    42   ~ 0
+GPIO 14 (TXD)
+Text Notes 6200 2000 0    42   ~ 0
+GPIO 15 (RXD)
+Text Notes 6200 2100 0    42   ~ 0
+GPIO 18 (PCM_CLK)
+Text Notes 6200 2300 0    42   ~ 0
+GPIO 23
+Text Notes 6200 2400 0    42   ~ 0
+GPIO 24
+Text Notes 6200 2600 0    42   ~ 0
+GPIO 25
+Text Notes 6200 2700 0    42   ~ 0
+GPIO 8 (CE0)
+Text Notes 6200 2800 0    42   ~ 0
+GPIO 7 (CE1)
+Text Notes 6200 2900 0    42   ~ 0
+GPIO 1 (ID_SC)
+Text Notes 6200 3100 0    42   ~ 0
+GPIO 12 (PWM0)
+Text Notes 6200 3300 0    42   ~ 0
+GPIO 16
+Text Notes 6200 3400 0    42   ~ 0
+GPIO 20 (PCM_DIN)
+Text Notes 6200 3500 0    42   ~ 0
+GPIO 21 (PCM_DOUT)
+Text Notes 6200 3000 0    42   ~ 0
+GND
+Text Notes 4600 1600 0    59   ~ 0
+D0
+Text Notes 4600 1700 0    59   ~ 0
+D1
+Text Notes 4600 3500 0    59   ~ 0
+SDA
+Text Notes 4600 3600 0    59   ~ 0
+SCL
+Text Notes 5800 1000 0    42   ~ 0
+D0
+Text Notes 6200 1100 0    42   ~ 0
+D1
+Text Notes 6200 1000 0    42   ~ 0
+RXD
+Text Notes 5800 1100 0    42   ~ 0
+TXD
+Text Notes 4710 1440 0    59   ~ 0
+2x
+Text Notes 7010 4540 0    59   ~ 0
+2x
+Text Notes 10640 7090 0    59   ~ 0
+Rev.
+Text Notes 10880 7090 0    59   ~ 0
+>REV
+Text Notes 7800 6450 0    42   ~ 0
+Licensed under a Creative Commons
+Text Notes 7800 6550 0    42   ~ 0
+Attribution-Share-Alike Unported License.
+Text Notes 7800 6650 0    42   ~ 0
+See creativecommons.org/licenses/by-sa/4.0/
+Text Notes 7800 6800 0    27   ~ 0
+Reference designs are provided "AS IS" and "WITH ALL FAULTS".
+Text Notes 7800 6900 0    27   ~ 0
+regarding this product, including but not limited to, any implied warranties of
+Text Notes 7800 7050 0    27   ~ 0
+The author(s) may make changes to specifications and product 
+Text Notes 7800 6850 0    27   ~ 0
+The author(s) disclaims all other warranties express or implied, 
+Text Notes 7800 6950 0    27   ~ 0
+merchantibility or fitness for any particular application.
+Text Notes 7800 7100 0    27   ~ 0
+descriptions at any time, without notice.
+Text Notes 9500 6500 0    42   ~ 0
+All rights reserved.
+Text Notes 9490 6420 0    42   ~ 0
+© 2020,
+Text Notes 9730 6420 0    42   ~ 0
+>AUTHOR
+Text Notes 1100 7100 0    59   ~ 0
+Ceramic capacitors are ±10% 50V X7R dielectric 0603 unless otherwise specified
+Text Notes 1100 7000 0    59   ~ 0
+Resistors are 5% 1/8W 0603 unless otherwise specified
+$EndSCHEMATC

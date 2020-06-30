@@ -1,0 +1,31 @@
+BRD:
+#ratsnest
+display none Component_side
+print 1.5 paper A4 file %P/PDF/%N_CMP.pdf;
+display none Solder_side
+print 1.5 paper A4 file %P/PDF/%N_SOL.pdf;
+display none Silk_screen_CMP
+print 1.5 paper A4 file %P/PDF/%N_PLC.pdf;
+display none Silk_screen_SOL
+print 1.5 paper A4 file %P/PDF/%N_PLS.pdf;
+display none Solder_stop_mask_CMP
+print 1.5 paper A4 file %P/PDF/%N_STC.pdf;
+display none Solder_stop_mask_SOL
+print 1.5 paper A4 file %P/PDF/%N_STS.pdf;
+display none Cream_frame_CMP
+print 1.5 paper A4 file %P/PDF/%N_CRC.pdf;
+display none Cream_frame_SOL
+print 1.5 paper A4 file %P/PDF/%N_CRS.pdf;
+display none Drill_data
+print 1.5 paper A4 file %P/PDF/%N_DRD.pdf;
+display none Component_assembly_CMP
+print 1.5 paper A4 file %P/PDF/%N_ASC.pdf;
+display none Component_assembly_SOL
+print 1.5 paper A4 file %P/PDF/%N_ASS.pdf;
+display none Outline
+print 1.5 paper A4 file %P/PDF/%N_OLN.pdf;
+display none Pinout
+print 1.5 paper A4 file %P/PDF/%N_PIN.pdf;
+
+SCH:
+print 1.0 paper A4 file %P/PDF/%N_SCH.pdf;

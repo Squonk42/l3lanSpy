@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name l3lanSpy)(type KiCad)(uri "$(KIPRJMOD)/l3lanSpy.pretty")(options "")(descr ""))
+)
